@@ -1,7 +1,7 @@
 {
-  "name": "cypress-included",
+  "name": "e2e",
   "version": "1.0.0",
-  "description": "",
+  "description": "Override cypress/included:8.0 image.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@bahmutov/print-env": "^2.1.2",
     "chance": "^1.1.7",
-    "cypress": "^8.3.0"
+    "dotenv": "^10.0.0"
   }
 }
